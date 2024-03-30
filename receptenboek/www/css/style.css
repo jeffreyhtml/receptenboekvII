@@ -14,20 +14,10 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-* {
-    background-color: tan;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 h1 {
     background-color: black;
     color: aliceblue;
     text-align: center;
-}
-
-a {
-    background-color: black;
-    color: white;
 }
 
 h2 {
@@ -36,11 +26,6 @@ h2 {
     text-align: center;
 }
 
-h4 {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
 
 center {
     background-color: tan;

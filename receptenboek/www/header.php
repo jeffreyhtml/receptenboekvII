@@ -24,7 +24,7 @@ $recepten_aantal = $row['count'];
       <p class="navbar_title">Jeffrey's Receptenboek</p>
       <a href="index.php">Home</a>
       <a href="recepten.php">Recepten</a>
-      <p>Aantal Recepten:<?php echo $recepten_aantal ?></p>
+      <p>Aantal Recepten: <?php echo $recepten_aantal ?></p>
     </div>
   </nav>
 </body>
