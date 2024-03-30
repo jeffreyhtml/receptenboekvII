@@ -49,3 +49,36 @@ center {
 body {
     background-color: tan;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 0.5rem;
+    background-color: rgb(124, 99, 67);
+    font-weight: 700;
+    color: wheat;
+    border-radius: 1rem;
+    width: 50%;
+
+    margin: auto;
+}
+
+.navbar a {
+    transition: color ease-in-out 0.2s;
+    text-decoration: none;
+}
+
+.navbar_title {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.navbar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a {
+    color: inherit;
+}

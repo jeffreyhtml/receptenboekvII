@@ -1,4 +1,4 @@
-<?php
+<?php 
 $user = 'root';
 $password = 'password';
 $databaseName = 'receptenboek';
