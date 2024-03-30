@@ -20,16 +20,7 @@ $receptenboek = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
-    <center>
-        <?php foreach ($receptenboek as $recepten) : ?> <br>
 
-            <h1> <?php echo $recepten['Naam'] ?> </h1> <br>
-            <img src="images/<?php echo $recepten['Afbeelding'] ?>" alt="receptfoto"> <br>
-            <a href="recepten_detail.php?id=<?php echo $recepten['id'] ?>" class="button-cyan">Details</a>
-
-        <?php endforeach; ?>
-
-    </center>
 </body>
 
 </html>

@@ -32,6 +32,5 @@ $receptenboek = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
     </center>
 </body>
-<!-- Commit command getest -->
 
 </html>

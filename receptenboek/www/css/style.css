@@ -67,3 +67,7 @@ body {
 a {
     color: inherit;
 }
+
+footer {
+    background-color: black;
+}

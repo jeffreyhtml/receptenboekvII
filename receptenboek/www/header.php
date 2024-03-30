@@ -1,10 +1,10 @@
 <?php
 require 'connectie.php';
-$sql = "SELECT COUNT(*) AS count FROM recepten";
+$sql = "SELECT COUNT(*) AS count, Menugang FROM recepten GROUP BY Menugang ORDER BY COUNT(*) DESC LIMIT 1";
 $result = mysqli_query($conn, $sql);
 
 $row = mysqli_fetch_assoc($result);
-
+$Menugang = $row['Menugang'];
 $recepten_aantal = $row['count'];
 ?>
 
@@ -25,6 +25,7 @@ $recepten_aantal = $row['count'];
       <a href="index.php">Home</a>
       <a href="recepten.php">Recepten</a>
       <p>Aantal Recepten: <?php echo $recepten_aantal ?></p>
+      <p>Meest Gekozen Recept: <?php echo $Menugang ?></p>
     </div>
   </nav>
 </body>
