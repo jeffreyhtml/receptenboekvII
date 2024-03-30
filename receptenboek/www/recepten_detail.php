@@ -28,6 +28,7 @@ $receptenboek = mysqli_fetch_assoc($result);
     Aantal Ingrediënten <br> <?php echo $receptenboek['Aantal Ingredienten'] ?> <br> <br>
     Kosten <br> <?php echo $receptenboek['Kosten'] ?> <br> <br>
     Recept <br> <?php echo $receptenboek['Recept'] ?> <br> <br>
+    moeilijkheidsgraad <br> <?php echo $receptenboek['Moeilijkheidsgraad'] ?> <br> <br>
     <br> <img src="images/<?php echo $receptenboek['Afbeelding'] ?>" alt="recept-image"> <br>
 </body>
 
