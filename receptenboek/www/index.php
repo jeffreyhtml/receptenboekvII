@@ -7,28 +7,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receptenboek</title>
+
     <style>
         img {
             width: 40%;
             height: 10%;
-            margin-left: 1%;
+            margin-left: 30%;
         }
 
-        body {
-            text-align: center;
-            font-size: x-large;
-        }
-
-        table {
-            margin: 0 auto;
-            border-collapse: collapse;
-            width: 80%;
-        }
-
-        th,
-        td {
-            padding: 10px;
-            border: 1px solid black;
+        .receptenboeklink {
+            margin-left: 47%;
         }
     </style>
 </head>
@@ -38,7 +26,7 @@
         <img src="images/Tiroler-groestl-a-potato-dish-iStock-683770218.jpg" alt="">
     </header>
     <br>
-    <a href="recepten.php">Receptenboek</a>
+    <a class="receptenboeklink" href="recepten.php">Receptenboek</a>
 
     <br><br>
 </body>
